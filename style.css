@@ -1,0 +1,51 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.first
+{
+  background-image: url(image/Nature.png);
+/* padding: 0;
+margin: 0; */
+ background-size: cover; 
+ background-position: center;
+/* background-repeat: no-repeat; */
+ height: 100vh;  
+ /* width: 100%; */
+  /* display: flex; 
+ justify-content: center; 
+align-items: center; */
+text-align: center;   
+vertical-align: auto;
+/* margin-top: 80px; */
+opacity: 80%;
+
+}
+.first h1
+{
+padding-top: 150px;
+color: rgb(80, 78, 78);
+
+}
+.first p
+{
+color:  white;
+margin-top: 40px;
+} 
+ .first button
+ {
+   padding: 16px;
+   border-radius: 20px;
+   border: 1px solid black;
+   margin-top: 12px;
+   background-color: rgb(16, 29, 20);
+   color: white;
+
+ }
